@@ -1,16 +1,27 @@
-
-
-
 .main-container{
-    border: 2px solid red;
+    border: 5px solid red
 }
-
-.center-container{
-    border: 2px solid green;
-}
+.head-container{
+    border: 2px solid blue
+} 
 .card-container{
-    border: 2px solid blue;
+    border: 2px solid green
 }
-.inputclass{
-    border: 2px solid mediumspringgreen;
+.table-container{
+    border:2px solid yellow
+}
+.input2class{
+    border:2px solid purple
+}
+.slctclass{
+    border:2px solid darkorange
+}
+.optnclass{
+    border: 2px solid darkgreen
+}
+.feedclass{
+    border: 2px solid darkred
+}
+.sbmtclass{
+    border: 3px solid pink 
 }
