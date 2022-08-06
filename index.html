@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" method="get">
+    
+    <title>Netflix Survey Form</title>
+</head>
+<body>
+    <form action="result.html">
+        <div class="main-container">
+            <div class="center-container">
+                <h1 class="baslık">NETFLIX</h1>
+                <p class="prf1">Thank you for signing up Netflix. Tell us more about your self</p>
+            </div>
+            <br><br>
+            <div class="card-container">
+                <div class="inputclass">
+                    <label for="name">Name</label>
+                    <br><br>
+                    <input type="text" name="Name" id="name" placeholder="Enter your name" class="nclass">
+                    <br><br>
+                    <label for="age">Age</label>
+                    <br><br>
+                    <input type="number" name="Age" id="age" placeholder="Age" min="18" class="aclass">
+                    <br><br>
+                    <label for="email">Email</label>
+                    <br><br>
+                    <input type="email" name="Email" id="email" placeholder="Enter your email" class="eclass">
+                    <br><br>
+                    <label for="content-type">Content Type</label>
+                    <br><br>
+                    <input type="text" name="content-type" id="content-type" list="contype" class="contypeclass" placeholder="Series">
+                    <br><br>
+                    <datalist id="contype" class="dclass">
+                        <option value="Film"></option>
+                        <option value="Soap Opera"></option>
+                        <option value="Talk Show"></option>
+                    </datalist>
+                    <br><br>
+                    <p>Movie type</p>                    
+                    <input type="checkbox" name="type_1" id="comedy" value="Comedy"checked>
+                    <label for="comedy">Comedy</label>
+                    <br>
+                    <input type="checkbox" name="type_2" id="action" value="Action">
+                    <label for="action">Action</label>
+                    <br>
+                    <input type="checkbox" name="type_3" id="romance" value="Romance">
+                    <label for="romance">Romance</label>
+                    
+    
+                </div>
+                
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </form>
+    
+</body>
+</html>

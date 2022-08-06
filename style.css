@@ -1,0 +1,16 @@
+
+
+
+.main-container{
+    border: 2px solid red;
+}
+
+.center-container{
+    border: 2px solid green;
+}
+.card-container{
+    border: 2px solid blue;
+}
+.inputclass{
+    border: 2px solid mediumspringgreen;
+}
