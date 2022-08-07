@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-
 }
 html {
     min-height: 100%;
@@ -19,65 +18,74 @@ h1{
     font-family: 'Amiri', serif;
 }
 .main-container{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     
 }
 .nclass:hover{
     border: 2px solid rgba(37, 37, 37, 0.671);
-    
 }
 .sclass{
-    /* padding: 5px 30px; */
-    width: 100px;
-    margin:5px 35%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 20px;
+    width: max-content;
+    margin:5px 25%;
+    padding: 13px 45px;
+    border-radius: 30px;
     /* color: white; */
-    background-color: rgb(231, 62, 62);
-  
- 
+    background-color: rgb(255, 0, 0);
+    font-size: 18px;
 }
 .sclass:hover{
     cursor:pointer;
 }
 .head-container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     text-underline-position: auto;
     text-align: center;
-
     font-size: 20px;
-    
-    
 } 
 .span1{
-    color: red;
+    color:rgb(255, 0, 0);
 }
 .card-container{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     background-color: rgba(10, 10, 10, 0.863);
-    margin: -27px 35% -22px;
-    
-   
+    margin: -27px 33% -22px;
 }
 .table-container{
-    border:2px solid yellow;
+    /* border:2px solid yellow; */
     padding: 20px;
     background-color: rgba(34, 31, 31, 0.335);
     margin: 10px 40px 7px;
 }
-.input2class{
-    border:2px solid purple;
+.nclass{
+    width: 315px; 
+    height: 37px;
+    padding-left: 10px;
+}
+.contypeclass{
+    width: 285px;
+    height: 27px;
+    padding-left: 10px;
+}
+.feed_class{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.input-class{
+    padding: 25px 25px 2px;
+    /* border: 3px solid blue; */
+}
+.input2-class{
+    /* border:2px solid purple; */
 }
 .slctclass{
-    border:2px solid darkorange;
+    /* border:2px solid darkorange; */
 }
 .optnclass{
-    border: 2px solid darkgreen;
+    /* border: 2px solid darkgreen; */
 }
 .feedclass{
-    border: 2px solid darkred;
+    /* border: 2px solid darkred; */
 }
 .sbmtclass{
-    border: 3px solid pink; 
+    /* border: 3px solid pink;  */
 }
