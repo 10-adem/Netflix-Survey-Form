@@ -59,6 +59,9 @@ h1{
     width:92%;
     margin: auto;
     min-height: 97%;
+    padding: 2% 10%;
+    width:1400px;
+    min-height: 100% ;
     background-color: rgba(34, 31, 31, 0.335);
     margin-bottom: 1%;
     margin-top: 2%;
