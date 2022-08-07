@@ -39,7 +39,6 @@ h1{
     font-size: 25px;
     width: 630px ;
     margin:auto;
-    /* border: 2px solid red; */
 } 
 .span1{
     color:rgb(255, 0, 0);
@@ -51,10 +50,8 @@ h1{
     width: 400px;
     margin: auto;
     margin-bottom: 0%;
-    /* border: 2px solid blue; */
 }
 .table-container{
-    /* border:2px solid yellow; */
     padding-top: 2%;
     width:92%;
     margin: auto;
@@ -66,7 +63,6 @@ h1{
     margin-bottom: 1%;
     margin-top: 2%;
     content: 630px;
-    /* padding-right: auto; */
 }
 .nclass{
     width: 315px; 
@@ -84,5 +80,4 @@ h1{
 }
 .input-class{
     padding: 25px 25px 2px;
-    /* border: 3px solid blue; */
 }
